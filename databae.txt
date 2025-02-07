@@ -1,0 +1,4 @@
+ihis.cvwawk6mab0v.ap-south-1.rds.amazonaws.com
+port:3306
+username:admin
+pass:Snehith123

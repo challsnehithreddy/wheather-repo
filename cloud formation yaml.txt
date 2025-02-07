@@ -1,0 +1,11 @@
+create ec2 instance using cloud formation
+Resources:
+myEC2Instance:
+     Type: 'AWS::EC2::Instance'
+     Properties: 
+        ImageId: ami-0a70b9d193ae8a799
+        InstanceType: t2.micro
+        KeyName: my-key-pair
+        SecurityGroupIds:
+          - sg-12a4c434
+       

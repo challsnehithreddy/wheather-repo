@@ -1,0 +1,16 @@
+create EC2 instance using cloud formation:
+
+Resources:
+myEC2Instance:
+  Type: 'AWS::EC2::Instance'
+  Properties: 
+     ImageId:ami-0dee22c13ea7a9a67
+     InstanceType: t2.micro
+     KeyName: flight-server
+     SecurityGroupIds:
+       - sg-08e634076f9c9c7ef
+      Tags:
+      - Key: Name
+        Value: test-ec2
+
+          
